@@ -1,13 +1,14 @@
 # Microservicio de Conexión a Bases de Datos
 
 ## Descripción General
-Este microservicio permite realizar operaciones de consulta y manipulación de datos en diferentes tipos de bases de datos, incluyendo MySQL, MariaDB, SQLite3 y BadgerDB.
+Este microservicio permite realizar operaciones de consulta y manipulación de datos en diferentes tipos de bases de datos, incluyendo MySQL, MariaDB, SQLite3, BadgerDB y JSON.
 
 ## Tipos de Bases de Datos Soportados
 - MySQL
 - MariaDB
 - SQLite3
 - BadgerDB
+- JSON Cifrados
 
 ## Estructura General del JSON de Solicitud
 
