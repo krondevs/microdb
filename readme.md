@@ -214,7 +214,7 @@ Este microservicio permite realizar operaciones de consulta y manipulación de d
   "dbtype": "json",
   "dbname": "database_name",
   "apikey": "apikey",
-  "querytype": "", 
+  "querytype": "select", 
   "dbquery": "backup",
   "params": ""
 }
