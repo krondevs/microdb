@@ -215,12 +215,12 @@ Este microservicio permite realizar operaciones de consulta y manipulación de d
   "dbname": "database_name",
   "apikey": "apikey",
   "querytype": "select", 
-  "dbquery": "backup",
-  "params": ""
+  "dbquery": "",
+  "params": "backup"
 }
 ```
 ## Notas Importantes JSON
-- Los archivos se almacenan en colecciones que son indicadas po el parametro `dbname`
+- Los archivos se almacenan en colecciones que son indicadas por el parametro `dbname`
 - Para JSON, se utiliza JSON serializado para estructuras de datos complejas
 - Los datos se almacenan cifrados en archivos de extension `.dat` detro de la carpeta de la coleccion indicada
 - Los backups se almacenan con el nombre de la base de datos indicada en el archivo `dbsettings.json`, alli se respaldan comprimidos en zip con todas las colecciones, nombre por defecto de con hora y fecha en una carpeta `backups`.
